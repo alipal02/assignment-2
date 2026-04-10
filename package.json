@@ -1,0 +1,25 @@
+{
+  "name": "jupiter_movies_app_with_react_and_express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alipal02/jupiter_movies_app_with_react_and_express.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alipal02/jupiter_movies_app_with_react_and_express/issues"
+  },
+  "homepage": "https://github.com/alipal02/jupiter_movies_app_with_react_and_express#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14"
+  }
+}
