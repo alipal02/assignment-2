@@ -9,7 +9,7 @@ router.get('/movies',(req,res)=> {
         return res.status(200).send(dataMovies)
     }
     catch(err) {
-        return res.status(400).send(err.message)
+        return res.status(500).send(err.message)
     }
 })
 // ////////////////////////////GET/:ID//////////////////////////////////////////    
@@ -103,7 +103,7 @@ router.patch('/movies/:id',(req, res)=>{
              return res.status(200).send(dataMovies[indexMovie])
 
         } catch (err) {
-            return res.status(400).send(err.message)
+            return res.status(500).send(err.message)
         }
 })
 
@@ -137,7 +137,7 @@ router.get('/movies/search=/:title',(req,res)=>{
             res.status(200).send(data)
         }
      } catch(err){
-          res.status(400).send(err.message)
+          res.status(500).send(err.message)
     }
 })
 
@@ -156,7 +156,7 @@ router.get('/movies/limit=/:num',(req,res)=>{
         return res.send(result)
     
         }catch(err){
-          res.status(400).send(err.message)
+          res.status(500).send(err.message)
     }
 
 })
